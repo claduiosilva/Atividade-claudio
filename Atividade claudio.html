@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prontuário Eletrônico do Hospital</title>
+</head>
+<body>
+
+    <h1>Prontuário Eletrônico</h1>
+    
+    <form action="">
+        
+            <label for="Nome Completo">Nome Completo</label>
+            <input type="text" name="Nome Completo">
+        <div>
+
+        </div>
+
+            <label for="Nome Completo">Data de nascimento</label>
+            <input type="date" name="data de nascimento">
+        <div>
+
+        </div>
+
+            <label for="Telefone">Telefone</label>
+            <input type="text" name="Telefone">
+        <div>
+
+        </div>
+
+            <label for="E-mail">E-mail</label>
+            <input type="text" name="E-mail">
+        <div>
+
+        </div>
+
+            <label for="CPF">CPF</label>
+            <input type="text" name="CPF">
+        <div>
+
+            </div>
+
+            <label for="Senha">Senha</label>
+            <input type="password" name="Senha">
+        <div>
+
+            </div>
+
+            <label for="Genero">Genero</label>
+                <select>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                </select>
+            <div>
+
+                </div>
+                <label for="Altura(em centimetro)">Altura(em centimetro</label>
+                <input type="number" step="1" min="0">
+            <div>
+
+                </div>
+        <!--subir arquivo para o site-->
+        <label for="foto">Foto do Paciente:</label>
+        <input type="file" name="foto"><br><br>
+        
+        <!--inserir texto com quebra de linha-->
+        <label for="notas">Notas Adicionais:</label><br>
+        <textarea name="notas" rows="4" cols="50"></textarea><br><br>
+    
+    
+    <legend>Hitorico de Colsultas</legend>
+        <table border="2">
+            <tr>
+                <th>Data</th>
+                <th>medico</th>
+                <th>Diagnostico</th>
+            </tr>
+            <tr>
+                <td>20/08/2024</td>
+                <td>Dr. Joao Silva</td>
+                <td>Hipertensão</td>
+            </tr>
+            <tr>
+                <td>30/08/2024</td>
+                <td>Dra. Maria Oliveira</td>
+                <td>Diabetes tipo 2</td>
+            </tr>
+        </table> 
+    <Legend>Medicamentos Prescitos</Legend>
+        <table border="2">
+            <tr>
+                <td>Medicamentos</td>
+                <td>Dosagem</td>
+                <td>Instruções</td>
+            </tr>
+            <Tr>
+                <td>Metformina</td>
+                <td>500mg</td>
+                <td>Tomar 1 vez ao dia</td>
+            </Tr>
+            <tr>
+                <td>Atenolol</td>
+                <td>50mg</td>
+                <td>Tomar 2 vezes ao dia</td>
+            </tr>
+        </table>   
+    <legend>Resultados de Exames</legend>    
+        <table border="2">
+            <tr>
+                <th>Data</th>
+                <th>Tipo de exame</th>
+                <th>Resultado</th>
+            </tr>
+            <tr>
+                <td>10/08/2024</td>
+                <td>Hemograma</td>
+                <td>Normal</td>
+            </tr>
+            <tr>
+                <td>05/07/2024</td>
+                <td>Colesterol</td>
+                <td>Alto</td>
+            </tr>
+        </table>
+    
+        
+    </form>
+
+</body>
+</html>
